@@ -1,0 +1,25 @@
+
+.outer-box {
+    /*border: 2px dotted red;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.inner-box {
+    /*border: 2px dotted yellow;*/
+    display: flex;
+    flex-direction: column;
+
+    height: calc(100% - 200px);
+    margin: 100px;
+    background-color: white;
+    max-width: 1500px;
+    flex-basis: 100%;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}

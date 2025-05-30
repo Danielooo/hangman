@@ -17,26 +17,4 @@ body {
   background-color: var(--primary-color);
 }
 
-.outer-box {
-  /*border: 2px dotted red;*/
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
 
-}
-
-.inner-box {
-  /*border: 2px dotted yellow;*/
-  display: flex;
-  flex-direction: column;
-
-  margin: 100px;
-  background-color: white;
-  width: 100%;
-  max-width: 1500px;
-  flex-basis: 100%;
-  border-radius: 20px;
-  justify-content: center;
-  align-items: center;
-}
