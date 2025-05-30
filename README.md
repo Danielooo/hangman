@@ -1,10 +1,12 @@
 # Hangman Game
 
-In dit project vind je een paar versies van het spel galgje (in het Engels: 'Hangman').
-De code is heel basis uitgewerkt om je een idee te geven. Voel je vrij om verbeteringen aan te brengen in je eigen versie!
+Op deze branch vind je het spel Galgje in de programmeertaal JavaScript. Je speelt het spel in de command line (van Webstorm)
 
-## Versies
-In deze repository vind je meerdere branches.
-- react-basic (een simpele versie van Galgje in React geschreven)
-- javascript-commandline (een simpele versie van Galgje in JavaScript die je speelt in de command line)
+## Hoe speel ik het spel?
 
+
+## Tips
+- Om user input te verwerken heb je readline nodig. Als dit een foutmelding geeft kun je met je muis hoveren boven 'readline' > en dan 'Enable coding assistance' klikken
+```
+    const readline = require('readline');
+```
