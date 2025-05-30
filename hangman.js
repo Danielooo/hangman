@@ -38,10 +38,11 @@ function spaceLetters(letters) {
 
 let displayWord = adjustDisplayWord();
 
-console.log('Welcome to Hangman!');
 
 // Functie met de logica van de game
 function handleTurn() {
+    console.clear();
+    console.log('Welcome to Hangman!');
     console.log(displayWord);
 
     console.log('Right letters: ', spaceLetters(rightLetters))
